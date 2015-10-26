@@ -7,6 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+ <div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+    <button>
+      <%= link_to "Home", home_path, class:"navbar-text" %> 
+      </button>
+      <button class="btn-info">
+      <%= link_to "Log Out", logout_path, method: :delete%>
+      </button>
+    </div>
+  </div>
+
 
 <%= yield %>
 

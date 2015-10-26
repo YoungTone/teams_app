@@ -1,16 +1,16 @@
 <div class="container text-center">
 <h1>Login</h1>
 <%= form_tag(login_path) do %>
-<p>
+
   <%= label_tag(:username)%>
   <%= text_field_tag(:username, params[:username], autofocus: true)%>
 
-</p>
+
   <%= label_tag(:password)%>
   <%= password_field_tag(:password)%>
-<p>
+
   <%= submit_tag("Log in", class: "btn btn-primary") %>
-</p>
+
 <% end %>
 
 <%= link_to "Don't have an account? Sign up here", signup_path%>

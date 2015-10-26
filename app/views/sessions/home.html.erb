@@ -1,6 +1,13 @@
 <h1>Home</h1>
-<div>
-<button class="btn-info">
-<%= link_to "Log Out", logout_path, method: :delete%>
+<p>
+<button class ="btn-info">
+<%= link_to "Teams", user_teams_path(current_user)%>  
 </button>
-</div>
+</p>
+<p>
+<button class="btn-info">
+  <%= link_to "Heroes", superheroes_path%>
+</button>
+</p>
+
+</button>

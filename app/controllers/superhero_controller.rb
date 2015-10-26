@@ -1,2 +1,0 @@
-class SuperheroController < ApplicationController
-end
