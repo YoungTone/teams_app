@@ -12,5 +12,5 @@ Rails.application.routes.draw do
     resources :teams, shallow: true
   end
 
-  reources :superheroes
+  resources :superheroes
 end
